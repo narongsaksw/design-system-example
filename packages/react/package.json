@@ -1,10 +1,14 @@
 {
-  "name": "react",
+  "name": "@ds.e/react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "rollup -c",
+    "dev": "yarn build --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
